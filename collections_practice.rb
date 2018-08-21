@@ -29,6 +29,6 @@ end
 def kesha_maker(array)
   new_array = []
   array.each do |aa|
-    puts [2]"{$$}"
+    puts [2]"#{$$}"
   end
 end
