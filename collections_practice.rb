@@ -54,10 +54,10 @@ end
 
 def add_s(array)
   #array = ["hand","feet", "knee", "table"]
-    array.each do |string, index|
+    array.each_with_index? do |string, index|
       index != [1]
         string = "s"
-          string.insert "#{string}"
+          string.insert "#{string}" "#{index}"
     end
 end
 
