@@ -1,3 +1,4 @@
+require 'pry'
 def sort_array_asc(array)
   #array = [25, 7, 1]
   array.sort
@@ -27,8 +28,45 @@ end
 
 
 def kesha_maker(array)
-  new_array = []
-  array.each do |aa|
-    puts [2]"#{$$}"
+  #array = ["blake", "ashley", "scott"]
+    array.each do |string|
+    string[2] = "$"
   end
 end
+
+
+def find_a(array)
+  array.select { |word| word.start_with?('a') }
+end
+
+
+def sum_array(nums)
+  total = 0
+
+  i = 0
+  while i < nums.count
+    total += nums[i]
+    i += 1
+  end
+     total
+end
+
+
+def add_s(array)
+  #array = ["hand","feet", "knee", "table"]
+    array.each do |string, index|
+      index != [1]
+        string = "s"
+          string.insert "#{string}"
+    end
+end
+
+
+
+
+
+
+
+
+
+      #binding.pry
